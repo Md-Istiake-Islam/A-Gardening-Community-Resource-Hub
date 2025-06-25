@@ -1,37 +1,82 @@
-#  Garden comminuty 
+# 🌿 Garden Community Hub
 
-**Live Site:** https://a-garden-community.firebaseapp.com/
-
----
-
-## Project Description
-
-**GardenGuide** is a modern, responsive web application designed to help plant lovers find care tips, seasonal advice, and community-shared insights about various plants. Whether you're a beginner gardener or an experienced green thumb, GardenGuide offers a delightful way to explore plant knowledge.
+**Live Site:** [https://a-garden-community.firebaseapp.com](https://a-garden-community.firebaseapp.com)
 
 ---
 
-##  Features
+## 📝 Overview
 
--  **Dynamic Tips Library** – Browse curated plant care tips by category, season, or difficulty.
--  **User Contribution** – Users can submit and edit their own plant tips with images.
--  **Real-time Tips Sorting** – View the latest posts with live update support.
--  **Like System** – Users can like posts, and the data is stored and updated with patch APIs.
--  **Dark & Light Theme Toggle** – Built with daisyUI's theme system with a toggle switch.
--  **Responsive Design** – Fully mobile-friendly and built using Tailwind CSS.
-- **Search & Filter** – Find specific posts or filter by plant type.
+**Garden Community Hub** is a modern, community-driven web application for plant lovers. It allows users to share plant care tips, browse advice by season or plant type, and engage with content through real-time updates and likes. Whether you're new to gardening or a seasoned expert, this hub is built to grow your knowledge and passion.
+
+![Screenshot Placeholder](https://your-screenshot-url.com/preview.jpg)
 
 ---
 
-##  Technologies Used
+## 🚀 Live Links
 
-- **React.js**
-- **Tailwind CSS + daisyUI**
-- **MongoDB & Express.js (Node.js backend)**
-- **React Router**
-- **Heroicons / React Icons**
-- **Vercel for deployment**
+- 🌐 **Live Site**: [https://a-garden-community.firebaseapp.com](https://a-garden-community.firebaseapp.com)
+- 💻 **Client Repo**: [GitHub - Frontend](https://github.com/Md-Istiake-Islam/A-Gardening-Community-Resource-Hub.git)
+- 🖥️ **Server Repo**: [GitHub - Backend](https://github.com/Md-Istiake-Islam/A-Gardening-Community-Resource-Hub.git)
 
 ---
 
-> Feel free to clone, contribute, and customize GardenGuide for your own gardening community.
+## 🌟 Features
 
+- 📚 Dynamic plant care tips library
+- ✍️ Users can contribute tips with images
+- 🕒 Real-time sorting of latest posts
+- ❤️ Like system (PATCH API)
+- 🌗 Theme toggle (light/dark) using daisyUI
+- 🔍 Search & filter by plant type
+- 📱 Fully responsive design (mobile-friendly)
+
+---
+
+## ⚙️ Technologies Used
+
+### Frontend
+
+- React.js
+- Tailwind CSS + daisyUI
+- Firebase (Auth + Hosting)
+- React Router v7
+- React Icons / Heroicons
+- Lottie React
+- Day.js
+- React Toastify
+- SweetAlert2
+
+### Backend
+
+- Node.js
+- Express.js
+- MongoDB
+- dotenv
+- cors
+
+---
+
+## 📦 Dependencies
+
+### Client
+
+```json
+{
+  "@heroicons/react": "^2.2.0",
+  "@tailwindcss/vite": "^4.1.7",
+  "daisyui": "^5.0.35",
+  "dayjs": "^1.11.13",
+  "firebase": "^11.8.0",
+  "lottie-react": "^2.4.1",
+  "react": "^19.1.0",
+  "react-dom": "^19.1.0",
+  "react-icons": "^5.5.0",
+  "react-router": "^7.6.0",
+  "react-toastify": "^11.0.5",
+  "react-tooltip": "^5.28.1",
+  "sweetalert2": "^11.21.2",
+  "tailwindcss": "^4.1.7"
+}
+
+
+##🧪 Local Development Setup
