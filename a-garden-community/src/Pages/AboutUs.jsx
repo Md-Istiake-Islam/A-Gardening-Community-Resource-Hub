@@ -26,7 +26,7 @@ const AboutUs = () => {
                         Share & Explore Gardening Tips
                      </h2>
                   </div>
-                  <p className="text-gray-600 text-sm 2xl:text-base">
+                  <p className="text-gray-600 text-sm 2xl:text-base !font-source-serif">
                      Learn and grow together! Discover practical gardening tips
                      from fellow members, or share your own expertise to help
                      others thrive — whether it's about soil prep, composting,
@@ -41,7 +41,7 @@ const AboutUs = () => {
                         Discover Gardeners Around You
                      </h2>
                   </div>
-                  <p className="text-gray-600 text-sm 2xl:text-base">
+                  <p className="text-gray-600 text-sm 2xl:text-base !font-source-serif">
                      Connect with passionate gardeners from around the world.
                      Explore profiles, exchange ideas, and celebrate each
                      other's green spaces and floral creations.
@@ -55,7 +55,7 @@ const AboutUs = () => {
                         Gardening Events & Updates
                      </h2>
                   </div>
-                  <p className="text-gray-600 text-sm 2xl:text-base">
+                  <p className="text-gray-600 text-sm 2xl:text-base !font-source-serif">
                      Stay in the loop with upcoming gardening events, workshops,
                      webinars, and seasonal campaigns. Never miss a chance to
                      grow your knowledge and your network.
@@ -69,7 +69,7 @@ const AboutUs = () => {
                         Friendly Community Environment
                      </h2>
                   </div>
-                  <p className="text-gray-600 text-sm 2xl:text-base">
+                  <p className="text-gray-600 text-sm 2xl:text-base !font-source-serif">
                      Whether you're a beginner with a single pot or an expert
                      with a full yard, Garden Community is a welcoming space for
                      you. Ask questions, offer advice, and make lasting

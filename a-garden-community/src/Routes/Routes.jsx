@@ -18,6 +18,7 @@ import OverviewPage from "../Pages/Dashboard/OverviewPage";
 import AllTips from "../Pages/Dashboard/AllTips";
 import AboutUs from "../Pages/AboutUs";
 import ContactUs from "../Pages/ContactUs";
+import VIewTips from "../Pages/Dashboard/VIewTips";
 
 const Routes = createBrowserRouter([
    {
@@ -162,6 +163,21 @@ const Routes = createBrowserRouter([
                   <ShareAGardenTip />
                </PrivateRoute>
             ),
+         },
+         {
+            path: "tip/:id",
+            hydrateFallbackElement: <LoadingSpinner />,
+            element: (
+               <PrivateRoute>
+                  <VIewTips />
+               </PrivateRoute>
+            ),
+            loader: async ({ params }) => {
+               const res = await fetch(
+                  `https://b11a10-server-side-dev-istiake.vercel.app/tipDetails/${params.id}`
+               );
+               return res.json();
+            },
          },
       ],
    },

@@ -121,7 +121,7 @@ const Navbar = () => {
       <>
          <li className="!px-2 active:bg-primary">
             <NavLink
-               to={`./dashboard`}
+               to={`${isDashboardPage ? "./../dashboard" : "./dashboard"}`}
                className={"!font-source-serif4 mb-1 gap-3 hover:text-primary"}
             >
                <LuLayoutDashboard className="text-xl" />

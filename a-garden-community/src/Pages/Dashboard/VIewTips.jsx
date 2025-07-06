@@ -1,5 +1,5 @@
 import React, { useContext, useEffect, useState } from "react";
-import { Link, useLoaderData } from "react-router";
+import { Links, useLoaderData } from "react-router";
 import { IoIosTimer } from "react-icons/io";
 import { SlLike } from "react-icons/sl";
 import { IoTimerOutline } from "react-icons/io5";
@@ -10,10 +10,11 @@ import { AiFillLike } from "react-icons/ai";
 import { FaRegUserCircle } from "react-icons/fa";
 import { LuFileType } from "react-icons/lu";
 import { TbCategoryPlus } from "react-icons/tb";
-import { ThemeContext } from "../Components/ToggleThemeProvider";
-import LoadingSpinner from "../Components/LoadingSpinner";
+import { ThemeContext } from "../../Components/ToggleThemeProvider";
+import { Link } from "react-router";
+import LoadingSpinner from "../../Components/LoadingSpinner";
 
-const TipDetails = () => {
+const VIewTips = () => {
    const { theme } = useContext(ThemeContext);
    const tipsData = useLoaderData();
    const {
@@ -73,20 +74,6 @@ const TipDetails = () => {
 
    return (
       <div className="container lg:max-w-7xl mx-auto mt-14 pb-14 px-3 lg:px-0">
-         <div>
-            <h1 className="text-[28px] font-bold !font-source-serif text-primary-content border-b border-green-600 border-dashed pb-3 max-w-md mb-3">
-               Best{" "}
-               <span className="text-primary !font-source-serif">
-                  Gardening Tips
-               </span>
-            </h1>
-            <p className="text-sm mb-10">
-               Gardening is both an art and a science, requiring patience,
-               knowledge, and a touch of creativity. The best gardening tips
-               help ensure lush, thriving plants while making the process
-               enjoyable and efficient.
-            </p>
-         </div>
          <div className=" relative mt-6  grid lg:grid-cols-12 gap-10">
             <div className="lg:col-span-8 border border-stone-300 pb-10 rounded-lg overflow-hidden">
                <div>
@@ -229,4 +216,4 @@ const TipDetails = () => {
    );
 };
 
-export default TipDetails;
+export default VIewTips;
